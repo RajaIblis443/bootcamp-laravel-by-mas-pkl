@@ -16,8 +16,12 @@
     </svg>
 </div>
     
-
+        
+    
     <div id="hero-text" class="p-4 mt-4 bg-white rounded-lg right-96">
+        <div class="bg-gradient-to-tr from-teal-500 to-sky-700 bg-clip-text" >
+        <h1 class="mb-10 text-5xl font-bold text-transparent"> Halo Semuanya, Selamat datang</h1>
+        </div>
         <h3 class="mb-2 text-2xl font-bold text-blue-600">Tentang Saya</h3>
         <p class="flex items-center text-gray-800">
             <span class="text-lg font-semibold">Nama:</span>

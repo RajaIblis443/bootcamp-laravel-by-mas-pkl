@@ -12,9 +12,9 @@
         @vite('resources/css/app.css')
     </head>
     <style>
-            *{
+            /* *{
                 border: 1px solid red
-            }
+            } */
             html{
                 scroll-behavior: smooth;
             }
@@ -24,12 +24,9 @@
             <nav class="flex justify-between px-5 py-3 border border-b-2 shadow-md text-slate-900">
                 <x-navbar/>
             </nav>
+
         
-            <header class="mt-10 bg-gradient-to-br from-sky-300 to-sky-800 bg-clip-text">
-                <h1 class="text-5xl font-bold text-center text-transparent">Welcome To My Portfolio!!!</h1>
-            </header>
-        
-            <div id="hero" class="flex justify-center mt-6 ">
+            <div id="hero" class="flex items-center justify-center mt-6 ">
                 @yield('hero')
             </div>
         
