@@ -1,3 +1,6 @@
+@php
+    use Illuminate\Support\Str;
+@endphp
 
     <!DOCTYPE html>
     <html lang="en">
@@ -12,31 +15,37 @@
         @vite('resources/css/app.css')
     </head>
     <style>
-            *{
-                border: 1px solid red
-            }
+                /* *{
+                    
+                    border: 1px solid red
+                } */
             html{
+                
                 scroll-behavior: smooth;
             }
     </style>
-    <body class="flex flex-col justify-center min-h-screen font-lato">
-        <nav class="flex justify-between px-5 py-3 border border-b-2 shadow-md text-slate-900 ">
-            <x-navbar/>
-        </nav>
+    <body class="flex flex-col justify-center max-w-full min-h-screen text-xl font-lato">
+        
+        <x-navbar/>
+        
         <div class="container self-center" id="container">
 
         
-            <div id="hero" class="flex items-center justify-center mt-6 se">
+            <div id="hero" class="flex items-center justify-center mt-32 ">
                 @yield('hero')
             </div>
-        
-            <div id="about" class="mx-auto mt-10 container-md">
+            
+            <div id="about" class="mx-48 mt-52 container-md">
                 @yield('about')
             </div>
+            
 
-            <div id="projets" class="mt-14" >
-                
+            <div  id="projects" class="mt-96">
+                @yield('projects')
             </div>
+
+            
+
         
         </div>
         

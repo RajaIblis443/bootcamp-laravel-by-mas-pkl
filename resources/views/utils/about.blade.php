@@ -1,13 +1,12 @@
-@extends('layouts.app')
 
 @section('about')
 <h2 class="mb-4 text-3xl font-semibold"> Siapa Saya? </h2>
-<p class="text-base">Nama saya Bagas    seorang pengembang web dengan spesialisasi di JavaScript dan pengembangan aplikasi berbasis PHP. Dengan pengalaman dalam berbagai proyek selama di SMK, saya telah membangun aplikasi yang solid dan ramah pengguna. Saya tidak hanya fokus pada kode yang bersih dan efisien, tetapi juga pada pengalaman pengguna yang luar biasa.</p>
+<p class="text-normal">Nama saya Bagas    seorang pengembang web dengan spesialisasi di JavaScript dan pengembangan aplikasi berbasis PHP. Dengan pengalaman dalam berbagai proyek selama di SMK, saya telah membangun aplikasi yang solid dan ramah pengguna. Saya tidak hanya fokus pada kode yang bersih dan efisien, tetapi juga pada pengalaman pengguna yang luar biasa.</p>
 
 <p class="mt-10">
     <span class="text-2xl font-semibold">Keahlian Utama Saya: </span>
 
-    <ul class="ml-20 text-lg font-semibold list-disc">
+    <ul class="ml-20 font-semibold list-disc">
         <li class="mt-4">javascript: 
             <span
             class="font-normal">Mengembangkan aplikasi yang powerfull dan kuat mengunkan express.js.</span>

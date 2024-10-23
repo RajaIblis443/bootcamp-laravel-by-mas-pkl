@@ -1,4 +1,4 @@
-@extends('layouts.app')
+
 
 @section('hero')
 <div id="hero-icon" class="relative"><div id="hero-img" class="w-96 mr-36">
